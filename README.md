@@ -22,9 +22,9 @@ Escriba una función sumaImparesPares (lista1 , lista2) que reciba dos lista de 
 Escriba una función llamada **eliminarElemento** que reciba como parámetro de entrada una lista con diferentes elementos es decir enteros, flotantes y cadenas de texto, y otra variable llamdo **elemento**, y eliminar si este elemento de esta lista. Hacer uso de la iteración y evitar funciones built-in.
 
 ```python
->>> eliminarElemento( [12, 78, 12, 0, 5.2, "abc", 0, 12, 5.2, 12] , [12] )
+>>> eliminarElemento( [12, 78, 12, 0, 5.2, "abc", 0, 12, 5.2, 12] , 12 )
 [78, 0, 5.2, "abc", 0, 5.2]
->>> eliminarElemento( [12, 5.2, 12], [5] )
+>>> eliminarElemento( [12, 5.2, 12], 5 )
 [12, 5.2, 12]
 ```
 ## Ejercicio 3. Valor 10 puntos.
