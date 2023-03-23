@@ -20,7 +20,7 @@ def test_eliminarElemento_2():
     
     
 def test_eliminarRepetidos_1():
-    assert Laboratorio5.eliminarRepetidos( [12, 78, 12, 0, 5.2, "abc", 0, 12, 5.2, 12] ) == [78, "abc"]
+    assert Laboratorio5.eliminarRepetidos( [12, 78, 12, 0, 5.2, "abc", 0, 12, 5.2, 12] , [12, 5.2, 0]) == [78, "abc"]
     
 def test_eliminarRepetidos_2():
-    assert Laboratorio5.eliminarRepetidos( [12, 5.2, 12] ) == [5.2]
+    assert Laboratorio5.eliminarRepetidos( [12, 5.2, 12], [12] ) == [5.2]
