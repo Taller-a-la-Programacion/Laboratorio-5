@@ -28,11 +28,11 @@ Escriba una función llamada **eliminarElemento** que reciba como parámetro de 
 [12, 5.2, 12]
 ```
 ## Ejercicio 3. Valor 10 puntos.
-Escriba una función llamada **eliminarRepetidos** que reciba como parámetro de entrada una lista con diferentes elementos es decir enteros, flotantes y cadenas de texto, y eliminar si un elemento de esta lista aparece más de una vez. Hacer uso de la iteración y evitar funciones built-in.
+Escriba una función llamada **eliminarRepetidos** que reciba como parámetro de entrada una lista con diferentes elementos es decir enteros, flotantes y cadenas de texto, y otra lista con los elementos. Hacer uso de la iteración y evitar funciones built-in.
 
 ```python
->>> eliminarRepetidos( [12, 78, 12, 0, 5.2, "abc", 0, 12, 5.2, 12] )
+>>> eliminarRepetidos( [12, 78, 12, 0, 5.2, "abc", 0, 12, 5.2, 12] , [12, 5.2, 0])
 [78, "abc"]
->>> eliminarRepetidos( [12, 5.2, 12] )
+>>> eliminarRepetidos( [12, 5.2, 12], [12] )
 [5.2]
 ```
