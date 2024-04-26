@@ -1,4 +1,4 @@
-# 2023 S1 Laboratorio 4
+# 2024 S1 Laboratorio 4
 
 ## Instrucciones Generales
 - El archivo **debe** llamarse **Laboratorio4.py**
