@@ -1,7 +1,7 @@
-# 2023 S1 Laboratorio 5
+# 2023 S1 Laboratorio 4
 
 ## Instrucciones Generales
-- El archivo **debe** llamarse **Laboratorio5.py**
+- El archivo **debe** llamarse **Laboratorio4.py**
 - Debe realizar la siguiente función con recursión de cola
 - No olvidar los comentarios
 
